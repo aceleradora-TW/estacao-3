@@ -9,7 +9,7 @@ public class InverteString {
 
     public String invertendo(String stg){
         String arr[] = stg.split("");
-        Collections.reverse(Arrays.asList(arr[]));
-        return 
+        //Collections.reverse(Arrays.asList(arr[]));
+        return "";
     }
 }

@@ -1,46 +1,29 @@
 package NumeroCartao;
-import java.util.Arrays;
-import java.util.Collections;
 
 public class ValidadorCartaoDeCredito {
 
-    public static boolean ehValido(String numero) {
+    public static boolean ehValido(String numero) throws Exception {
         int soma = 0;
 
-        String tiraEspaco[] = numero.split(" ");
-        String juntaSemEspaco = "";
+        numero = numero.replace(" ", "");
 
-        for(int i=0; i<tiraEspaco.length; i++){
-            juntaSemEspaco += tiraEspaco[i];
+        if(numero.matches("[0-9]")){
+            throw new Exception("CONTEM STRING");
         }
 
-        String cadaPosicaoArray[] = juntaSemEspaco.split("");
-        int arrayIntInvertido[] = new int[cadaPosicaoArray.length];
+        for (int i=0; i<numero.length(); i++){
 
+            int valor = Integer.valueOf(numero.substring(i,i+1));
 
-        for(int i=0; i<cadaPosicaoArray.length; i++){
-
-            try{
-                Integer.parseInt(cadaPosicaoArray[i]);
-            }
-            catch (Exception e){
-                System.out.println(cadaPosicaoArray[i] + " -> NÃO É NÚMERO!");
-                System.exit(i);
-            }
-            arrayIntInvertido[i] = Integer.parseInt(cadaPosicaoArray[i]);
-
-        }
-
-        Collections.reverse(Arrays.asList(arrayIntInvertido));
-
-        for (int i = 0; i< arrayIntInvertido.length; i++){
             if(i%2 == 0){
-                arrayIntInvertido[i] = arrayIntInvertido[i]*2;
-                if(arrayIntInvertido[i]>9){
-                    arrayIntInvertido[i] -= 9;
+                valor *=  2;
+
+                if(valor > 9){
+                    valor-= 9;
                 }
             }
-            soma += arrayIntInvertido[i];
+
+            soma += valor;
         }
 
         if(soma%10 == 0){
