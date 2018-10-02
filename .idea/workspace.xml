@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cc49e0b4-45e8-4ebf-bd59-2ba765612c72" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InverteString/InverteString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InverteString/InverteString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NumeroCartao/TesteValidadorCartaoDeCredito.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumeroCartao/TesteValidadorCartaoDeCredito.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NumeroCartao/ValidadorCartaoDeCredito.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumeroCartao/ValidadorCartaoDeCredito.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,11 +44,11 @@
     <session id="-1700474692">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.38" value="1" />
+          <entry key="project.open.time.38" value="2" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -91,7 +88,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/NumeroCartao/ValidadorCartaoDeCredito.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -100,37 +97,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/lang/String.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="204" selection-start-line="204" selection-end-line="204" />
-              <folding>
-                <element signature="e#6140#6141#0" expanded="true" />
-                <element signature="e#23005#23006#0" expanded="true" />
-                <element signature="e#23055#23056#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/InverteString/InverteString.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/NumeroCartao/TesteValidadorCartaoDeCredito.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+            <state relative-caret-position="345">
+              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -169,8 +140,8 @@
         <option value="$PROJECT_DIR$/src/NumeroCartao/Main.java" />
         <option value="$PROJECT_DIR$/src/InverteString/TestesInverteString.java" />
         <option value="$PROJECT_DIR$/src/InverteString/InverteString.java" />
-        <option value="$PROJECT_DIR$/src/NumeroCartao/TesteValidadorCartaoDeCredito.java" />
         <option value="$PROJECT_DIR$/src/NumeroCartao/ValidadorCartaoDeCredito.java" />
+        <option value="$PROJECT_DIR$/src/NumeroCartao/TesteValidadorCartaoDeCredito.java" />
       </list>
     </option>
   </component>
@@ -197,9 +168,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -228,6 +198,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -335,18 +306,19 @@
       <workItem from="1537206867857" duration="3470000" />
       <workItem from="1537359372490" duration="9477000" />
       <workItem from="1537372043238" duration="838000" />
-      <workItem from="1537384439768" duration="1841000" />
+      <workItem from="1537384439768" duration="2030000" />
+      <workItem from="1537537724941" duration="25000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15626000" />
+    <option name="totallyTimeSpent" value="15840000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1217" height="1036" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27288282" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2780154" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -355,7 +327,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3288889" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3288889" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -460,10 +432,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/NumeroCartao/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/InverteString/TestesInverteString.java">
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/lang/String.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="153">
+          <caret line="204" selection-start-line="204" selection-end-line="204" />
         </state>
       </provider>
     </entry>
@@ -477,22 +449,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NumeroCartao/TesteValidadorCartaoDeCredito.java">
+    <entry file="file://$PROJECT_DIR$/src/InverteString/TestesInverteString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/lang/String.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="204" selection-start-line="204" selection-end-line="204" />
-          <folding>
-            <element signature="e#6140#6141#0" expanded="true" />
-            <element signature="e#23005#23006#0" expanded="true" />
-            <element signature="e#23055#23056#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -500,6 +460,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="21" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NumeroCartao/TesteValidadorCartaoDeCredito.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
         </state>
       </provider>
     </entry>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+    <link rel="stylesheet" type="text/css" href="formulario.css">
+</head>
+
+<body>
+<div class="align">
+
+    <h1>Dados do Paciente</h1>
+    <div>
+        Nome <input type="text" name="nome">
+        Sexo <input type="radio" name="genero" value="masculino">Masculino
+        <input type="radio" name="genero" value="feminino">Feminino
+    </div>
+
+    <div>
+        Data de Nascimento <input type="date" name="data">
+        <input type="radio" name="situacao" value="pre">Pré-transplante
+        <input type="radio" name="situacao" value="pos">Pós-transplante
+    </div>
+
+    Data de transplante <input type="date" name="transp">
+
+    <div>
+        Necessidades especiais <select>
+
+        <option value= "nao"> Cadeirante </option>
+        <option value= "sim"> Outro </option>
+
+    </select>
+
+        Órgão: <select>
+        <option>Rins</option>
+        <option>Coração</option>
+        <option>Pulmão</option>
+    </select>
+    </div>
+
+
+    <h1>Endereço</h1>
+    <div>
+        Rua <input type="text" name="rua">
+    </div>
+
+    <div>
+        N° <input type="number" name="numero">
+    </div>
+
+    <div>
+        Bairro <input type="text" name="bairro">
+    </div>
+
+    <div>
+        Cidade <input type="text" name="cidade">
+        UF <input type="text" name="estado">
+    </div>
+
+    <h1>Dados do acompanhante</h1>
+    <div>
+    <h3>Acompanhante 1</h3>
+    </div>
+
+    <div>
+        Nome completo <input type="text" name="acomp">
+        <input type="radio" name="genero" value="fem"> F
+        <input type="radio" name="genero" value="masc"> M
+    </div>
+
+    <div>
+        Data de nascimento <input type="date" name="data1">
+    </div>
+
+    <div>
+        <h3>Acompanhante 2</h3>
+        Nome completo <input type="text" name="acomp2">
+        <input type="radio" name="genero" value="fem"> F
+        <input type="radio" name="genero" value="masc"> M
+    </div>
+
+
+    <div>
+        Data de nascimento <input type="date"  name="data2">
+    </div>
+</div>
+
+</div>
+</body>
+
+</html>
